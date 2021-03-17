@@ -7,7 +7,7 @@
 
 ### branch名
 
-- develop/｛内容｝-｛名前｝
+- develop/｛内容｝_｛名前｝
 
 ### style
 
