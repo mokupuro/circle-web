@@ -5,6 +5,14 @@
 
 もくプロのホームページのリポジトリです。
 
+### branch名
+
+- develop/｛内容｝-｛名前｝
+
+### style
+
+- styleはcssのフレームワークである[bulma](https://bulma.io/documentation/)を使います
+
 
 ## プロジェクト
 
