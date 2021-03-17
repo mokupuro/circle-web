@@ -13,6 +13,11 @@
 
 - styleはcssのフレームワークである[bulma](https://bulma.io/documentation/)を使います
 
+▼参考
+- [チュートリアル１](https://qiita.com/ochiochi/items/de1afd2d3fc8f6d3ea55)
+- [チュートリアル２](https://qiita.com/ochiochi/items/19a4ac858483af9295b8)
+- [チュートリアル３](https://qiita.com/ochiochi/items/23f96b5164686e8d62c1)
+
 
 ## プロジェクト
 
@@ -36,3 +41,5 @@
 ## 参考リンク
 
 - [開発フロー](https://qiita.com/gumimin/items/63dcb36d4730213bd63a#issue)
+- [gitの基本](https://github.com/hironomiu/Git-GitHub-Training/blob/master/training.md)
+- [画像説明付きGitHubの流れ](https://github.com/hironomiu/Git-GitHub-Training/blob/master/additional.md)
