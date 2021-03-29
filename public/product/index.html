@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>もくプロ</title>
+  <title>もくプロ | 制作物一覧</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel='stylesheet' href="./style.css">
 </head>
 <body>
   <header>
-    <div class="">
-      <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="#">
             <h1 class="title">もくプロ</h1>
           </a>
       
           <!-- ハンバガーメニュー-->
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
       
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div id="navMenu" class="navbar-menu">
           <div class="navbar-end">
             <a class="navbar-item" href="#">
               もくプロについて
@@ -67,36 +67,34 @@
       </nav>
     </div>
   </header>
+
   <main>
-    <!-- ファーストビュー -->
-    <section class="section">
-      <div class="container">
-        <h1 class="title">Hello World</h1>
+    <section class="hero is-primary is-bold">
+      <div class="hero-body">
+          <p class="title">
+            制作物一覧
+          </p>
+          <p class="subtitle">
+            もくプロ
+          </p>
       </div>
     </section>
-    
-    <!-- 理念・ビジョン -->
-    <section>
-
+    <section class="section">
+      <div class="content has-text-centered">
+        <h1>製作中…</h1>
+      </div>
     </section>
-
-    <!-- 活動内容 -->
-    <section>
-
-    </section>
-
-    <!-- 制作物 -->
-    <section>
-
-    </section>
-
-    <!-- お問い合わせ -->
-    <section>
-
-    </section>
-
   </main>
-  <footer></footer>
+
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          &copy; 2021 mokupuro
+        </p>
+      </div>
+    </div>
+  </footer>
 
   <script src="../js/index.js"></script>
 </body>
