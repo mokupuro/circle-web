@@ -1,4 +1,4 @@
-// ハンバガーメニュー
+// ハンバーガーメニュー
 document.addEventListener('DOMContentLoaded', () => {
 
   // "navbar-burger" を取得
