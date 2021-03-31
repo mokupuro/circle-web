@@ -13,3 +13,7 @@ main {
   max-width: 600px;
   margin: 0 auto;
 }
+
+.img {
+  min-height: 3.75rem;
+}
