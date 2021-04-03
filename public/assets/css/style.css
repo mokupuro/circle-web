@@ -1,3 +1,14 @@
 .img {
   min-height: 3.75rem;
 }
+
+.slide {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.section-title__line {
+  border-bottom: 3px solid #FFB549;
+  margin: 1rem auto;
+  width: 4rem;
+}
