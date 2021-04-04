@@ -27,6 +27,7 @@
   <!-- styles css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -67,15 +68,15 @@
             <div class="navbar-item">
               <div class="field is-grouped">
                 <p class="control">
-                  <a class="button is-info">
-                    <span class="icon">
+                  <a>
+                    <span class="icon is-medium has-text-info">
                       <i class="fab fa-twitter" aria-hidden="true"></i>
                     </span>
                   </a>
                 </p>
                 <p class="control">
-                  <a class="button is-info">
-                    <span class="icon">
+                  <a>
+                    <span class="icon is-medium has-text-danger">
                       <i class="fab fa-instagram" aria-hidden="true"></i>
                     </span>
                   </a>
@@ -121,8 +122,74 @@
     </section>
 
     <!-- 制作物 -->
-    <section>
-
+    <section class="section">
+      <div class="container has-text-centered">
+        <div class="mb-6">
+          <h2 class="is-size-3">制作物</h2>
+          <hr class="section-title-line">
+        </div>
+        <div class="swiper-container">
+          <!-- Sliderのラッパー(各スライドを内包する箱みたいなイメージ) -->
+          <div class="swiper-wrapper">
+            <!-- Slideさせたいコンテンツ -->
+            <div class="swiper-slide card slide">
+              <header class="card-header">
+                <p class="card-header-title">
+                  ウェブサイト
+                </p>
+              </header>
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./assets/img/img-slide-webpage.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content has-text-left">
+                  現在閲覧してくださっているサイトです。<br>初のもくプロ内でのチーム開発の制作物になります。
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card slide">
+              <header class="card-header">
+                <p class="card-header-title">
+                  製作中…
+                </p>
+              </header>
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./assets/img/no-image.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  製作中です。
+                </div>
+              </div> 
+            </div>
+            <div class="swiper-slide card slide">
+              <header class="card-header">
+                <p class="card-header-title">
+                  製作中…
+                </p>
+              </header>
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./assets/img/no-image.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  製作中です。
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ページネーション -->
+          <div class="swiper-pagination"></div>
+        </div>
+        
+        <a href="./product/index.html" class="button is-primary is-outlined is-rounded mt-4">制作物一覧をみる</a>
+      </div>
     </section>
 
     <!-- お問い合わせ -->
@@ -133,6 +200,9 @@
   </main>
   <footer></footer>
 
+  <!--swipre.js-->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/carousel.js"></script>
   <script src="./js/index.js"></script>
 </body>
 </html>
