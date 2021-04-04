@@ -12,3 +12,12 @@
   margin: 1rem auto;
   width: 4rem;
 }
+
+.margin-center {
+  margin: 0 auto;
+}
+
+.contents-text {
+  width: 260px;
+  margin: 0 auto;
+}
