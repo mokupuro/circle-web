@@ -1,0 +1,14 @@
+/* footerの最下部固定 */
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.img {
+  min-height: 3.75rem;
+}

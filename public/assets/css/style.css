@@ -1,0 +1,23 @@
+.img {
+  min-height: 3.75rem;
+}
+
+.slide {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.section-title-line {
+  border-bottom: 3px solid #FFB549;
+  margin: 1rem auto;
+  width: 4rem;
+}
+
+.margin-center {
+  margin: 0 auto;
+}
+
+.contents-text {
+  width: 260px;
+  margin: 0 auto;
+}
