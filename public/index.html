@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -94,8 +95,8 @@
     <section class="section">
       <div class="columns is-align-items-center">
         <div class="column py-5 pl-4 has-text-centered-mobile">
-          <h1 class="is-size-1 is-size-3-mobile has-text-weight-bold">Hello World から<br>始めるプログラミング</h1>
-          <div class="">
+          <h1 class="is-size-1 is-size-3-mobile has-text-weight-bold  animate__animated animate__zoomIn">Hello World から<br>始めるプログラミング</h1>
+          <div>
             <p class="subtitle is-size-6-mobile mt-4">帝京大学プログラミングサークル</p>
             <button class="button is-medium is-primary is-rounded mt-4"><a href="./form/index.html" class="has-text-white">お問い合わせ</a></button>
           </div>
@@ -111,7 +112,7 @@
       <div class="container is-max-desktop">
         <div class="content has-text-centered">
           <h1 class="title">「交流」「楽しさ」「成長」</h1>
-          <p class="mt-6">もくプロは色々な人と一緒に勉強をしたり、一つのプロダクトを作ったりと交流しながら<br>助け合い高めあって成長していけるそんなコミュニティーを目指しています。</p>
+          <p class="mt-6 animate__animated" data-animate="animate__fadeInDown">もくプロは色々な人と一緒に勉強をしたり、一つのプロダクトを作ったりと交流しながら<br>助け合い高めあって成長していけるそんなコミュニティーを目指しています。</p>
         </div>
       </div>
     </section>
@@ -124,7 +125,7 @@
           <hr class="section-title-line">
         </div> 
         <div class="is-flex-tablet is-justify-content-space-around">
-          <div class="box">
+          <div class="box animate__animated" data-animate="animate__fadeInLeft">
             <article>
               <figure class="image is-64x64 margin-center my-5">
                 <img src="./assets/img/img-active-icon1.png">
@@ -135,7 +136,7 @@
               </div>
             </article>
           </div>
-          <div class="box">
+          <div class="box animate__animated" data-animate="animate__fadeInRight">
             <article>
               <figure class="image is-64x64 margin-center my-5">
                 <img src="./assets/img/img-active-icon2.png">
@@ -146,7 +147,7 @@
               </div>
             </article>
           </div>
-          <div class="box mb-5">
+          <div class="box mb-5 animate__animated" data-animate="animate__fadeInLeft">
             <article>
               <figure class="image is-64x64 margin-center my-5">
                 <img src="./assets/img/img-active-icon3.png">
@@ -242,7 +243,12 @@
 
   <!--swipre.js-->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
   <script src="./js/carousel.js"></script>
+  <script src="./js/animate.js"></script>
   <script src="./js/index.js"></script>
 </body>
 </html>
