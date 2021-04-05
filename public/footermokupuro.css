@@ -1,25 +1,21 @@
 .footer-container{
   display: flex;
+  background-color: #1E90FF;
   height: 260px;
-}
-.footer-logo{
-  background: #1E90FF;
-  width: 25%;
-  text-align: center;
 }
 .footer-explanation{
   background-color: #1E90FF;
-  width: 25%;
+  width: 33%;
   text-align: center;
 }
 .footer-production{
   background-color: #1E90FF;
-  width: 25%;
+  width: 33%;
   text-align: center;
 }
 .footer-link{
   background-color: #1E90FF;
-  width: 25%;
+  width: 33%;
   text-align: center;
 }
 .footer-used{
@@ -27,16 +23,15 @@
   border-top: solid 2px black;
   border-bottom: solid 2px black;
 }
-h1{
+.footer-title{
   color: white;
   font-size: 35px;
   font-weight:bolder;
 }
 img{
-  width: 65%;
   margin-top: 10px;
 }
-a{
+.footer-a{
   display: block;
   padding-top: 33px;
   font-size: 23px;
@@ -65,7 +60,6 @@ a{
   color: black;
 }
 p{
-  display: inline;
   color: black;
 }
 .footer-p{
