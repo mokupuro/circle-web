@@ -235,51 +235,79 @@
     </section>
 
     <!-- お問い合わせ -->
-    <section>
+    <section class="section">
       <div class="question">
         <div class="question-title">
-         <div class="mb-5">
-          <h2 class="is-size-3">お問い合わせ</h2>
-          <hr class="section-title-line">
-         </div>
+          <div class="mb-5">
+            <h2 class="is-size-3">お問い合わせ</h2>
+            <hr class="section-title-line">
+          </div>
         </div>
-        <p><font size="4">サークルについて何か分からないこと、聞いてみたいこと等があれば<br>こちらのボタンをクリックしてフォームにご記入ください！</font></p>
+        <p class="is-size-5 is-size-6-mobile">サークルについて何か分からないこと、聞いてみたいこと等があれば<br>こちらのボタンをクリックしてフォームにご記入ください！</p>
       </div>
       <div class="question-button">
-       <button class="button is-medium is-primary is-rounded mt-1"><a href="./form/index.html" class="has-text-white" style="width: 100%; padding: 10px;">お問い合わせ</a></button>
+        <button class="button is-medium is-primary is-rounded mt-1"><a href="./form/index.html" class="has-text-white p-3">お問い合わせ</a></button>
       </div>
     </section>
 
   </main>
-  <footer>
-    <div class="footer-container">
-      <div class="footer-explanation">
-        <h1 class="footer-title">もくプロについて</h1>
-        <a href="#" class="footer-a1 footer-a">あいうえお</a>
-        <a href="#" class="footer-a">かきくけこ</a>
-        <a href="#" class="footer-a">さしすせそ</a>
-      </div>
 
-      <div class="footer-production">
-        <h1 class="footer-title">制作物</h1>
-        <a href="#" class="footer-a4 footer-a">制作中...</a>
-        <a href="#" class="footer-a">制作中...</a>
-        <a href="#" class="footer-a">制作中...</a>
+  <footer class="footer pb-1 pt-2">
+    <div class="is-flex-tablet is-justify-content-space-around p-3">
+      <div class="footer-logo mb-4">
+        <a href="../index.html">
+          <figure class="image is-128">
+            <img src="./assets/img/logo.png" alt="もくプロ">
+          </figure>
+        </a>
       </div>
+      <ul class="is-flex-tablet">
+        <li class="has-text-centered footer-list my-3">
+          <p class="is-size-4 has-text-weight-medium is-clickable js-fotter-menu-item-link">もくプロ</p>
+          <ul class="submenu">
+            <li>
+              <a href="#" class="footer-a">ビジョン</a>
+            </li>
+            <li>
+              <a href="#" class="footer-a">概要</a>
+            </li>
+            <li>
+              <a href="#" class="footer-a">活動内容</a>
+            </li>
+          </ul>
+        </li>
 
-      <div class="footer-link">
-        <h1 class="link-title footer-title">リンク集</h1>
-        <a href="https://twitter.com/MOKUMOKUpro?s=06" target="_blank" class="a11 footer-a">Twitter</a>
-        <a href="https://instagram.com/mokupro" class="footer-a" target="_blank">instagram</a>
-        <a href="#" class="footer-a">わいうえを</a>
-      </div>
+        <li class="has-text-centered footer-list my-3">
+          <p class="is-size-4 has-text-weight-medium is-clickable js-fotter-menu-item-link">制作物</p>
+          <ul class="submenu">
+            <li>
+              <a href="../product/index.html#website" class="footer-a">webサイト</a>
+            </li>
+            <li>
+              <a href="#" class="footer-a">制作中...</a>
+            </li>
+            <li>
+              <a href="#" class="footer-a">制作中...</a>
+            </li>
+          </ul>
+        </li>
 
+        <li class="has-text-centered footer-list my-3">
+          <p class="is-size-4 has-text-weight-medium is-clickable js-fotter-menu-item-link">リンク</p>
+          <ul class="submenu">
+            <li>
+              <a href="https://twitter.com/MOKUMOKUpro?s=06" target="_blank" class="a11 footer-a">Twitter</a>
+            </li>
+            <li>
+              <a href="https://instagram.com/mokupro" class="footer-a" target="_blank">instagram</a>
+            </li>
+          </li>
+        </ul>
+      </ul>
     </div>
-    <div class="footer-used">
-      <div class="is-flex-tablet is-justify-content-space-between">
-        <div class="footer-p">
-        <p>Copyright © 2021　mokupuro</p>
-        </div>
+    <div class="footer-line">
+      <div class="has-text-centered my-3">
+        <p>Copyright © 2021 mokupuro</p>
       </div>
     </div>
   </footer>
@@ -292,6 +320,7 @@
   crossorigin="anonymous"></script>
   <script src="./js/carousel.js"></script>
   <script src="./js/animate.js"></script>
+  <script src="./js/accordion.js"></script>
   <script src="./js/index.js"></script>
 </body>
 </html>
