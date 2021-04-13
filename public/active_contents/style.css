@@ -19,7 +19,7 @@
   }
   @media screen and (min-width: 769px) {
       .width-styles {
-        width: 620px;
+        width: 700px;
         margin: 0 auto;
         line-height: 2;
       }
